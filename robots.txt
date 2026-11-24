@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://guiadomotoristabrasil.com.br/sitemap.xml
