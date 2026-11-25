@@ -1,14 +1,14 @@
 
-:root{--bg:#f6f4f0;--paper:#fff;--ink:#1b2328;--muted:#5b656c;--line:#e2ddd4;--accent:#c2410c;--accent-2:#fff1e6;--road:#2a3439;--ok:#2f7d32;--bad:#a23b2a;
+:root{--bg:#f6f4f0;--paper:#fff;--ink:#1b2328;--muted:#5b656c;--line:#e2ddd4;--accent:#1d4ed8;--accent-2:#eaf1ff;--road:#0b1220;--ok:#2f7d32;--bad:#a23b2a;
 --f-head:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif;--f-body:"Source Serif 4",Georgia,serif;--f-ui:"Figtree","Segoe UI",system-ui,sans-serif}
-@media (prefers-color-scheme:dark){:root{--bg:#121719;--paper:#1a2124;--ink:#ecefef;--muted:#9ea8ad;--line:#2c363a;--accent:#fb8a4c;--accent-2:#2b1e16;--road:#0d1113;--ok:#7cc97f;--bad:#f08c79;color-scheme:dark}}
+@media (prefers-color-scheme:dark){:root{--bg:#121719;--paper:#1a2124;--ink:#ecefef;--muted:#9ea8ad;--line:#2c363a;--accent:#6ea0ff;--accent-2:#16213a;--road:#0d1113;--ok:#7cc97f;--bad:#f08c79;color-scheme:dark}}
 *{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--bg);color:var(--ink);font:18px/1.65 var(--f-body)}
 a{color:var(--accent)}
 .top{background:var(--road);color:#fff}
 .top .in{max-width:1080px;margin:0 auto;padding:14px max(16px,env(safe-area-inset-left));display:flex;gap:16px;align-items:center;justify-content:space-between;flex-wrap:wrap}
 .brand{font:800 20px/1 var(--f-head);color:#fff;text-decoration:none;display:flex;gap:10px;align-items:center}
-.brand i{display:inline-block;width:22px;height:22px;border-radius:50%;border:4px solid #f59e0b;box-shadow:inset 0 0 0 3px var(--road),inset 0 0 0 6px #f59e0b}
+.brand i{display:inline-block;width:22px;height:22px;border-radius:50%;border:4px solid #3b82f6;box-shadow:inset 0 0 0 3px var(--road),inset 0 0 0 6px #3b82f6}
 .top nav{display:flex;gap:16px;flex-wrap:wrap;font:500 14px var(--f-ui)}
 .top nav a{color:#d7dde0;text-decoration:none}.top nav a:hover{color:#fff}
 .wrap{max-width:760px;margin:0 auto;padding:28px max(16px,env(safe-area-inset-left)) 64px}
@@ -45,7 +45,7 @@ footer .in{max-width:1080px;margin:0 auto;padding:22px max(16px,env(safe-area-in
 
 .trust{display:flex;gap:12px;align-items:flex-start;background:var(--paper);border:1px solid var(--ok);border-radius:10px;padding:12px 14px;margin:14px 0;font:15px/1.5 var(--f-ui)}
 .trust .shield{flex:none;width:26px;height:26px;border-radius:50%;background:var(--ok);color:#fff;display:grid;place-items:center;font-weight:700}
-.deal{background:linear-gradient(135deg,#c2410c,#ea580c);color:#fff;border-radius:12px;padding:18px 20px;margin:18px 0}
+.deal{background:linear-gradient(135deg,#1d4ed8,#2563eb);color:#fff;border-radius:12px;padding:18px 20px;margin:18px 0}
 .deal-k{font:700 12px var(--f-ui);letter-spacing:.08em;text-transform:uppercase;opacity:.9}
 .deal-t{font:800 24px/1.2 var(--f-head);margin:4px 0}
 .deal-s{font:15px/1.5 var(--f-ui);opacity:.95}
@@ -69,3 +69,16 @@ footer .in{max-width:1080px;margin:0 auto;padding:22px max(16px,env(safe-area-in
 .mv-links a{font:500 14px var(--f-ui);border:1px solid var(--line);background:var(--paper);border-radius:999px;padding:6px 12px;text-decoration:none;color:var(--ink)}
 .home-mv{margin-top:36px}.lede-x{font-size:19px;color:var(--muted);max-width:62ch}
 @media (max-width:560px){.mv-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.mv-card{padding:10px}.mv-title{font-size:14px}.mv-card .price{font-size:17px}.mv-card .price small{display:block}}
+
+.brand span{display:flex;flex-direction:column;line-height:1.05}
+.brand small{font:600 11px var(--f-ui);letter-spacing:.06em;text-transform:uppercase;color:#93b4ff}
+.office{background:var(--road);color:#e7ecf5;margin-top:40px}
+.office-in{max-width:1080px;margin:0 auto;padding:28px max(16px,env(safe-area-inset-left));display:flex;gap:20px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.office-txt{max-width:640px;min-width:0}
+.office-k{font:600 12px var(--f-ui);letter-spacing:.08em;text-transform:uppercase;color:#93b4ff}
+.office h2{color:#fff;font-size:24px;margin:.3em 0}
+.office p{margin:0;font:15px/1.5 var(--f-ui);color:#c9d3e6}
+.office-cta{display:flex;gap:10px;flex-wrap:wrap}
+.btn-wa,.btn-site{font:600 15px var(--f-ui);text-decoration:none;border-radius:8px;padding:12px 16px}
+.btn-wa{background:#22c55e;color:#06210f}.btn-site{border:1px solid #3b4a66;color:#e7ecf5}
+footer{margin-top:0}
